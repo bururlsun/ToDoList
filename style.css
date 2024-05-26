@@ -1,0 +1,124 @@
+* {
+    margin: 9px;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: repeating-radial-gradient(circle, #ff00ee, #00fff7 70%);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-top {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #00fff7, #ff00ee);
+    box-shadow: 0px 0px 20px #e43ddb, 0px 0px 10px #b703ae inset;
+    border: 2px solid #ff00d4;
+}
+.main {
+    padding: 10px 20px;
+}
+.main2 {
+    padding: 10px 20px;
+}
+.main3 {
+    padding: 10px 20px;
+}
+.create-btn {
+    font-size: 16px;
+    width: 50px;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: center;
+    border-color: transparent;
+    background: radial-gradient(circle, #ff00ee, #00fff7);
+    color: white;
+    border-radius: 10px;
+}
+.read-btn {
+    font-size: 16px;
+    width: 180px;
+    padding: 9px 50px;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, #ff00ee, #00fff7);
+    border-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+.hero-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.table {
+    box-shadow: 0px 0px 20px #3de4e4, 0px 0px 10px #21acc5 inset;
+    border: 2px solid #00d9ff;
+    background: repeating-linear-gradient(to right, #53ccc8, #a575a2 20%);
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 450px;
+    height: 400px;
+    right: 90px;
+    top: 30px;
+    padding: 30px;
+    border-radius: 90px 30px 0 50px;
+}
+.table::-webkit-scrollbar {
+    display: none;
+}
+.thead {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+.btn-x {
+    top: -10px;
+    right: -130px;
+    padding: 5px 10px;
+    color: red;
+    background: wheat;
+    border: 2px solid red;
+}
+.del-btn {
+    background: red;
+    border-color: transparent;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
+.contacts {
+    top: 30px;
+    right: 60px;
+    bottom: 30px;
+    color: rgb(122, 114, 114);
+}
+
+.btn-list {
+    right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    color: black;
+}
+.all {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
