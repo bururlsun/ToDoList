@@ -67,7 +67,7 @@ body {
     background: repeating-linear-gradient(to right, #53ccc8, #a575a2 20%);
     overflow-x: scroll;
     overflow-y: scroll;
-    width: 450px;
+    width: 50%;
     height: 400px;
     right: 90px;
     top: 30px;
@@ -112,6 +112,7 @@ body {
 }
 .list {
     color: black;
+    width: 103%;
 }
 .all {
     display: flex;

@@ -14,7 +14,7 @@ readBtn.addEventListener("click", () => {
 });
 
 createBtn.addEventListener("click", () => {
-    table.style.display = "block";
+    table.style.display = "noe";
 });
 
 btnX.addEventListener("click", () => {
@@ -32,8 +32,8 @@ function view() {
           <img src="${el.url}" alt="img" width=50>
           
           </div>
-          <div>${el.title}</div>
-          <div>${el.price}</div>
+          <h1>${el.title}</h1>
+          <b>${el.price}</b>
           <div>
           <button class="del-btn btn btn-danger">Delete</button>
           </div>
